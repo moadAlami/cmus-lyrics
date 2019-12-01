@@ -111,7 +111,15 @@ SONG1=$(wget --user-agent="Mozilla/5.0 Gecko/20100101" --no-check-certificate --
 
 printf "$TITLE1 - $ARTIST1 - $ALBUM1\n$SONG1"
 
-sleep $slp_time
+FILE="$HOME/.cache/lyrics/"$TITLE1-$ARTIST1-$ALBUM1""
+
+if ! [[ -f "$FILE" ]];then
+	echo $SONG1 > "$FILE"
+fi
+
+sleep $slp_time &
+echo $! > $HOME/.cache/pid/cmus-lyrics
+wait $!
 
 done
 
