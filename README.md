@@ -15,7 +15,7 @@ Obtain sudo privileges and download [cmus-lyrics-master.zip],
 
 ```sh
 sudo -s
-wget --content-disposition https://github.com/hakerdefo/cmus-lyrics/archive/master.zip
+wget --content-disposition https://github.com/moadAlami/cmus-lyrics/archive/master.zip
 ```
 
 Extract it,
