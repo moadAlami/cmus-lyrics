@@ -55,7 +55,7 @@ This work (<span property="dct:title">cmus-lyrics</span>, by [<span property="dc
 [perl]:https://www.perl.org
 [URI::Escape]:http://search.cpan.org/dist/URI/lib/URI/Escape.pm
 [Wget]:https://www.gnu.org/software/wget/
-[cmus-lyrics-master.zip]:https://github.com/hakerdefo/cmus-lyrics/archive/master.zip
+[cmus-lyrics-master.zip]:https://github.com/moadAlami/cmus-lyrics/archive/master.zip
 [CMus]:https://cmus.github.io
 [Federico Builes]:https://github.com/febuiles
 [makeitpersonal]:https://github.com/febuiles/makeitpersonal
